@@ -1,0 +1,45 @@
+@use "var" as var;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: var.$colorLight;
+}
+
+h1{
+  font:{
+    family: "Jost";
+    weight: 400;
+  }
+}
+
+@font-face{
+  font:{
+    family: "Jost";
+    weight: 400;
+    style: normal;
+  }
+  src: url("../fonts/Jost-Regular.woff2") format("woff2");
+}
+
+@font-face{
+  font:{
+    family: "Jost";
+    weight: 600;
+    style: normal;
+  }
+  src: url("../fonts/Jost-SemiBold.woff2") format("woff2");
+}
+
+@font-face{
+  font:{
+    family: "Jost";
+    weight: 700;
+    style: normal;
+  }
+  src: url("../fonts/Jost-Bold.woff2") format("woff2");
+}
