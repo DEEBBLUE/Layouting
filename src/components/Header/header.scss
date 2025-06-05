@@ -1,0 +1,47 @@
+@use "../../styles/_var.scss" as var;
+.header{
+  width: 100vw;
+
+  position: relative;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: var.$colorDark;
+
+  padding: 0 100px;
+  padding-top: 30px;
+}
+
+.header__name{
+  font:{
+    family: "Jost";
+    weight: 700;
+    size: 30px;
+  }
+  line-height: 1.6;
+}
+
+.header__nav{
+  &-list{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+
+    &Item > p{
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+  } 
+}
+.header__contacts{
+  font-size: 30px;
+  line-height: 1.6;
+}
