@@ -1,20 +1,31 @@
-@use "var" as var;
+@use "styles";
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
 
-body{
-  color: var.$colorLight;
+  color: styles.$colorLight;
 }
 
 h1{
   font:{
     family: "Jost";
+    weight: 600;
+  }
+}
+
+p{
+  font:{
+    family: "Jost";
     weight: 400;
   }
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 @font-face{
