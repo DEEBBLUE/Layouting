@@ -1,0 +1,56 @@
+.about{
+  padding-top: 120px;
+  &__container{
+    row-gap: 60px;
+  }
+  &-desc{
+    grid-column: 9 span;
+
+    font: {
+      family: "Jost";
+      weight: 400;
+      size: 30px
+    }
+    line-height: 1.6;
+    color: styles.$colorDark;
+  }     
+
+  &-desc > span{
+    font: {
+      family: "Jost";
+      weight: 600;
+      size: 30px
+    }
+    line-height: 1.6;
+    color: styles.$colorDark;
+
+  }
+  &-list{
+    grid-column: 12 span;
+
+    column-gap: 30px;
+
+    &Item{
+      grid-column: 3 span;
+      &--header{
+        font: {
+          family: "Jost";
+          weight: 600;
+          size: 70px;
+        }
+        line-height: 1.6;
+        color: styles.$colorRed;
+
+      }
+      &--text{
+        font: {
+          family: "Jost";
+          weight: 600;
+          size: 18px;
+        }
+        line-height: 1.6;
+        color: rgba(20, 16, 36, 0.7);
+      }
+    } 
+  }
+}

@@ -1,0 +1,35 @@
+@use "../../styles/_styles.scss" as styles;
+
+.hero{
+  background: styles.$colorDark;  
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  
+  /*Left Side*/
+  &__left{
+    place-self: center;
+
+    h1{
+      font: {
+        family: "Jost";
+        weight: 600;
+        size: 70px;
+      } 
+      line-height: 1.6;
+    }
+    &__left > p{
+
+      font: {
+        family: "Jost";
+        weight: 400;
+        size: 20px;
+      } 
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    &-btnContainer{
+      margin-top: 50px;
+    }
+  }
+}
