@@ -10,7 +10,7 @@ const HeroSection: FC = () => {
 
   return(
     <section className="hero">
-      <div className="container grid">
+      <div id="hero__container" className="container grid">
         <div className="hero__left flexing">
           <h1>ROBO SCHOOL</h1>
           <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>

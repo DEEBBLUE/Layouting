@@ -1,5 +1,8 @@
+@use "../../styles/_styles.scss" as styles;
+
 .about{
   padding-top: 120px;
+
   &__container{
     row-gap: 60px;
   }
