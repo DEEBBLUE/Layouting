@@ -1,0 +1,54 @@
+@use "../../styles/_styles.scss" as styles;
+
+.perspectives{
+  background: rgba(249, 249, 249, 1);
+  padding: 100px 0;
+  margin-top: 120px;
+
+  &__container{ 
+    row-gap: 60px;
+  }
+
+  &__header{
+    grid-column: span 9;
+
+    font-size: 50px;
+    
+    color: styles.$colorDark;
+  }
+
+  &__list{
+    grid-column: span 12;
+    gap: 40px;
+
+    &--item{
+      grid-column: span 4; 
+
+      & h2, 
+      & p {
+        font: {
+          family: "Jost";
+        } 
+
+        line-height: 1.6;
+      } 
+      & h2{
+        font-weight: 600;
+        size: 24px;
+        color: styles.$colorDark; 
+      }
+      & p{
+        margin-top: 20px;
+
+        font-weight: 400;
+        size: 18px;
+        color: rgba(20, 16, 36, 0.7);
+      }
+    }
+  }
+}
+
+.icon::after{
+  content: "";
+  background: url("../../assets/");
+}
