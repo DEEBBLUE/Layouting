@@ -1,5 +1,0 @@
-@use "sass:math";
-
-@function convertToVW($px,$viewport){
-  @return math.div($px, $viewport) * 100;
-}
