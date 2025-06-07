@@ -1,6 +1,5 @@
 import type { FC } from "react";
 import "./perspectivesSection.scss";
-import TooltipLogo from "../../assets/i.svg";
 
 const PerspectivesSection: FC = () => {
 
@@ -19,7 +18,7 @@ const PerspectivesSection: FC = () => {
 по робототехнике и программированию</p>
           </li>
           <li className="perspectives__list--item">
-            <h2>Практику<span><img src={TooltipLogo} alt="toolkit icon" loading="lazy"/></span></h2>
+            <h2>Практику</h2>
             <p>Возможность пройти практику  по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
           </li>
         </ul>
