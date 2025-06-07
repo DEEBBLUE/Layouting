@@ -1,0 +1,17 @@
+@use '../../styles/styles';
+
+.teacher{
+  &__header{
+    grid-column: 9 span;
+    font:{
+      family: "Jost";
+      weight: 600;
+      size: 50px;
+    }
+    line-height: 1.6;
+    color: styles.$colorDark; 
+  }
+  &__slider-container{
+    grid-column: 12 span;
+  }
+}
