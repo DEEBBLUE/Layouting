@@ -5,6 +5,7 @@ import AboutSection from "./section/AboutSection/AboutSection";
 import PerspectivesSection from "./section/PerspectivesSection/PerspectivesSection.tsx";
 import TeacherSection from "./section/TeacherSection/TeacherSection.tsx";
 import PackageSection from "./section/PackageSection/PackageSection.tsx";
+import ContactSection from "./section/ContactSection/ContactSection.tsx";
 
 import "./App.scss"
 
@@ -18,6 +19,7 @@ function App() {
         <PerspectivesSection/>
         <TeacherSection/>
         <PackageSection/>
+        <ContactSection/>
       </main>
     </>
   )
