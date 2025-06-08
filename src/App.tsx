@@ -6,6 +6,7 @@ import PerspectivesSection from "./section/PerspectivesSection/PerspectivesSecti
 import TeacherSection from "./section/TeacherSection/TeacherSection.tsx";
 import PackageSection from "./section/PackageSection/PackageSection.tsx";
 import ContactSection from "./section/ContactSection/ContactSection.tsx";
+import Footer from "./components/Footer/Footer.tsx";
 
 import "./App.scss"
 
@@ -21,6 +22,7 @@ function App() {
         <PackageSection/>
         <ContactSection/>
       </main>
+      <Footer/>
     </>
   )
 }
