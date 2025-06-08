@@ -4,6 +4,7 @@ import HeroSection from "./section/HeroSection/HeroSection";
 import AboutSection from "./section/AboutSection/AboutSection";
 import PerspectivesSection from "./section/PerspectivesSection/PerspectivesSection.tsx";
 import TeacherSection from "./section/TeacherSection/TeacherSection.tsx";
+import PackageSection from "./section/PackageSection/PackageSection.tsx";
 
 import "./App.scss"
 
@@ -16,6 +17,7 @@ function App() {
         <AboutSection/>
         <PerspectivesSection/>
         <TeacherSection/>
+        <PackageSection/>
       </main>
     </>
   )
