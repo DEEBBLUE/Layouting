@@ -1,6 +1,6 @@
 import type { FC } from "react";
 
-import Button from "../../components/Button/Button";
+import Button from "@components/Button/Button";
 
 import GirlPic from "../../assets/Group 211.png";
 
